@@ -7,6 +7,8 @@ require (
 	go.etcd.io/etcd v3.3.27+incompatible
 )
 
+require github.com/go-sql-driver/mysql v1.5.0 // indirect
+
 require (
 	github.com/coreos/etcd v3.3.27+incompatible // indirect
 	github.com/coreos/go-semver v0.3.1 // indirect
@@ -15,6 +17,7 @@ require (
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang/protobuf v1.5.3 // indirect
 	github.com/google/uuid v1.3.0 // indirect
+	github.com/jinzhu/gorm v1.9.16
 	go.uber.org/atomic v1.7.0 // indirect
 	go.uber.org/multierr v1.6.0 // indirect
 	go.uber.org/zap v1.24.0 // indirect
